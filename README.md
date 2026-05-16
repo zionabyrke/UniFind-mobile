@@ -14,9 +14,13 @@ UniFind was built to make student-to-student transactions personalized, faster, 
 
 ---
 
-<img src="docs/assets/screenshots/home.png" width="32%" /> 
-<img src="docs/assets/screenshots/listing.png" width="32%" /> 
-<img src="docs/assets/screenshots/messages.png" width="32%" />   
+<table>
+  <tr>
+    <td><img src="docs/assets/screenshots/home.png" width="300" alt="Screenshot 1"></td>
+    <td><img src="docs/assets/screenshots/listing.png" width="300" alt="Screenshot 2"></td>
+    <td><img src="docs/assets/screenshots/messages.png" width="300" alt="Screenshot 2"></td>
+  </tr>
+</table>     
 
 ---
 
