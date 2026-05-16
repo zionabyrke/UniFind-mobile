@@ -1,5 +1,14 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+/* hide scrollbar */
+* {
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
 :root{
   --blue:        #004aad;
   --blue-mid:    #003d91;
