@@ -54,9 +54,47 @@ nav{
 }
 .nav-github:hover{ color: var(--blue); }
 
-@media (max-width: 680px) {
+.nav-burger{
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 6px;
+}
+.nav-burger span{
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--ink-mid);
+  border-radius: 2px;
+  transition: transform 0.25s, opacity 0.25s;
+}
+.nav-burger.is-open span:nth-child(1){ transform: translateY(7px) rotate(45deg); }
+.nav-burger.is-open span:nth-child(2) { opacity: 0; }
+.nav-burger.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+@media (max-width: 680px){
   nav { padding: 0 16px; }
-  .nav-links { display: none; }
+  .nav-burger { display: flex; }
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px; left: 0; right: 0;
+    flex-direction: column;
+    gap: 0;
+    background: rgba(245,248,255,0.97);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 0;
+  }
+  .nav-links.nav-open { display: flex; }
+  .nav-links li { width: 100%; }
+  .nav-links a { display: block; padding: 12px 24px; font-size: 0.95rem; }
+  .nav-cta { margin: 8px 24px; border-radius: 8px; text-align: center; }
 }
 
 .hero{
@@ -214,7 +252,7 @@ section { padding: 64px 24px; }
   padding: 22px; border-radius: 10px;
   border: 1px solid var(--border); background: var(--card-bg);
 }
-.about-card h3{ font-size: 0.9rem; font-weight: 700; color: var(--blue); margin-bottom: 8px; }
+.about-card h3{ font-size: 0.9rem; font-weight: 700; color: var(--orange); margin-bottom: 8px; }
 .about-card p{ font-size: 0.875rem; color: var(--ink-mid); line-height: 1.7; }
 
 /* FEATURES */
@@ -253,7 +291,7 @@ section { padding: 64px 24px; }
 
 .install-num{
   width: 27px; height: 27px; min-width: 27px;
-  border-radius: 50%; background: var(--blue); color: var(--white);
+  border-radius: 50%; background: var(--orange); color: var(--white);
   font-weight: 700; font-size: 0.8rem;
   display: flex; align-items: center; justify-content: center; margin-top: 2px;
 }
@@ -300,7 +338,7 @@ footer{
   background: #0a1628; color: #cbd8ea;
   text-align: center; padding: 40px 24px;
   font-size: 0.85rem; line-height: 1.9;
-  border-top: 3px solid var(--orange);
+  border-top: 3px solid var(--blue);
 }
 
 footer a{ color: #7fb3ff; text-decoration: none; transition: color 0.2s; }
