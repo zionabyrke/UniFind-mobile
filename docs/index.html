@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>UniFind</title>
+  <meta name="description" content="UniFind is a personalized marketplace app exclusively for Bicol University students. Buy, sell, and connect within the BU community." />
+
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="#">
+      <img src="assets/logo.png" alt="UniFind" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how-it-works">How It Works</a></li>
+      <li><a href="#team">Team</a></li>
+      <li>
+        <a href="https://github.com/zionabyrke/UniFind-mobile" target="_blank" rel="noopener" class="nav-github" aria-label="GitHub">
+          <img src="https://cdn.simpleicons.org/github/1e3a5f" width="20" height="20" alt="GitHub" />
+        </a>
+      </li>
+      <li><a href="#install" class="nav-cta">Download APK</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <!-- Left: description -->
+    <div class="hero-left">
+      <h1>A Content-based Personalized Marketplace App for <span>BUeños</span></h1>
+      <p class="hero-desc">
+        <strong>Tired of scrolling on Facebook forums?
+        Help test</strong> our UniFind mobile app where BU students can buy, sell, and connect within the university community. It provides a safe and convenient platform for finding school essentials, pre-loved items, gadgets, books, uniforms, and other products, exclusively among verified BU students.
+      </p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="https://github.com/zionabyrke/UniFind-mobile/releases/latest">Download APK</a>
+      </div>
+      <p class="hero-note">Requires <strong>@bicol-u.edu.ph</strong> Google account · Android 7.0+</p>
+    </div>
+
+    <!-- Right: screenshots -->
+    <div class="screenshots-panel">
+      <div class="ss-frame">
+        <img src="assets/screenshots/home.png" alt="Home Feed" />
+      </div>
+      <div class="ss-frame tall">
+        <img src="assets/screenshots/listing.png" alt="Listing Detail" />
+      </div>
+      <div class="ss-frame">
+        <img src="assets/screenshots/messages.png" alt="Messages" />
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider" />
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <span class="section-label">About the Project</span>
+      <h2 class="section-title">What is UniFind?</h2>
+      <p class="section-body">
+        UniFind was built to make student-to-student transactions personalized, faster, more organized, and safer within the BU campus, while promoting affordability and sustainability through item reuse. Only verified BU students with an active <strong>@bicol-u.edu.ph</strong> Google account can access the app.
+      </p>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Mission</h3>
+          <p>To provide students with a trusted digital marketplace that makes buying and selling easier, safer, and more accessible.</p>
+        </div>
+        <div class="about-card">
+          <h3>Vision</h3>
+          <p>To become the go-to campus marketplace where every BU student can connect, trade, and support one another within the university community.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features">
+    <div class="container">
+      <span class="section-label">Features</span>
+      <h2 class="section-title">What the app includes</h2>
+      <p class="section-body">
+        Built with a Content-based Recommendation system, UniFind also uses a structured cart and order system. No in-app payment is processed for now, buyers and sellers coordinate meetups and payment on campus after the seller accepts an order.
+      </p>
+      <div class="features-list">
+        <div class="feature-item"><span class="feature-icon">🔐</span><p>BU-exclusive access via Google Sign-In</p></div>
+        <div class="feature-item"><span class="feature-icon">🏠</span><p>Personalized listing recommendations</p></div>
+        <div class="feature-item"><span class="feature-icon">📸</span><p>Listings with photos, categories, and pricing</p></div>
+        <div class="feature-item"><span class="feature-icon">🛒</span><p>Cart and order request system</p></div>
+        <div class="feature-item"><span class="feature-icon">💬</span><p>Built-in messaging between buyers and sellers</p></div>
+        <div class="feature-item"><span class="feature-icon">⭐</span><p>Seller and buyer reviews with dimension ratings</p></div>
+        <div class="feature-item"><span class="feature-icon">🔍</span><p>Full-text search across all listings</p></div>
+        <div class="feature-item"><span class="feature-icon">🏪</span><p>Shop profiles showing listings and reviews</p></div>
+        <div class="feature-item"><span class="feature-icon">🔔</span><p>In-app notifications for orders and messages</p></div>
+        <div class="feature-item"><span class="feature-icon">📋</span><p>Order management for buyers and sellers</p></div>
+        <div class="feature-item"><span class="feature-icon">❤️</span><p>Wishlist for saving listings</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how-it-works">
+    <div class="container">
+      <span class="section-label">How It Works</span>
+      <h2 class="section-title">From sign-in to transaction</h2>
+      <p class="section-body">
+        Checkout does not finalize a transaction, it creates an order request. The seller accepts or rejects it, then buyer and seller coordinate payment and meetup through the in-app chat.
+      </p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h3>Sign in with your BU Google account</h3>
+          <p>Only <strong>@bicol-u.edu.ph</strong> emails are accepted. Non-BU accounts are blocked at the server level before account creation.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h3>Browse or post listings</h3>
+          <p>Scroll on the Home feed or search by category/keyword. Add items to your cart or post your own with photos, a description, and a price.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h3>Send an order request</h3>
+          <p>Checkout submits an order to the seller. The seller reviews it and accepts or rejects. No payment happens inside the app.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <h3>Coordinate and meet on campus</h3>
+          <p>Use the built-in chat to arrange payment method and meetup location. After completion, both parties can leave a review.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTALL -->
+  <section id="install">
+    <div class="container">
+      <span class="section-label">Download</span>
+      <h2 class="section-title">Installing UniFind</h2>
+      <p class="section-body">UniFind is not yet on the Google Play Store. Install directly using the APK file.</p>
+      <div class="install-steps">
+        <div class="install-step">
+          <div class="install-num">1</div>
+          <div class="install-text">
+            <a href="https://github.com/zionabyrke/UniFind-mobile/releases/latest" style="color: var(--blue); font-weight: 700;">Download the latest APK</a> from GitHub Releases.
+          </div>
+        </div>
+        <div class="install-step">
+          <div class="install-num">2</div>
+          <div class="install-text">On your device, go to <strong>Settings -> Install unknown apps</strong> and allow your browser or file manager to install APKs.</div>
+        </div>
+        <div class="install-step">
+          <div class="install-num">3</div>
+          <div class="install-text">Open the downloaded file and tap <strong>Install</strong>.</div>
+        </div>
+        <div class="install-step">
+          <div class="install-num">4</div>
+          <div class="install-text">Sign in with your <strong>@bicol-u.edu.ph</strong> Google account.</div>
+        </div>
+      </div>
+      <div class="install-note">
+        ⚠️ Requires Android 7.0 (API 24) or higher. iOS is not supported.
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="team" id="team">
+    <div class="container">
+      <span class="section-label">The Developers</span>
+      <h2 class="section-title">About the Team</h2>
+      <p class="section-body">
+        We are five 3rd Year Bachelor of Science in Computer Science students from Bicol University College of Science. UniFind was developed in partial fulfillment for our course requirements.
+      </p>
+      <div class="team-grid">
+        <div class="team-card">
+          <div>
+            <div class="team-name">Lovely L. Asaytuno</div>
+            <div class="team-role">Quality Assurance Engineer</div>
+          </div>
+        </div>
+        <div class="team-card">
+          <div>
+            <div class="team-name">Joshua Rene Latagan</div>
+            <div class="team-role">Frontend Developer</div>
+          </div>
+        </div>
+        <div class="team-card">
+          <div>
+            <div class="team-name">Renz Kirby Onia</div>
+            <div class="team-role">Backend Developer</div>
+          </div>
+        </div>
+        <div class="team-card">
+          <div>
+            <div class="team-name">Jayson Tripulca</div>
+            <div class="team-role">Frontend Developer</div>
+          </div>
+        </div>
+        <div class="team-card">
+          <div>
+            <div class="team-name">Juan Miguel Zurbito</div>
+            <div class="team-role">Project Manager</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUPPORT -->
+  <div class="support-bar" id="support">
+    <h2>Support the Project</h2>
+    <p>UniFind is free and maintained by amateur students. If you'd like to help expand this app enough to cover development tools and future costs, any support is appreciated.</p>
+    <a class="kofi-btn" href="https://ko-fi.com/unifind" target="_blank" rel="noopener">☕ Support on Ko-fi</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <img src="assets/logo.png" alt="UniFind" style="height: 120px; width: auto; mix-blend-mode: screen; margin-bottom: 10px;" />
+    <p>
+      <a href="https://github.com/zionabyrke/UniFind-mobile/releases/latest">Download</a> &nbsp;·&nbsp;
+      <a href="https://github.com/zionabyrke/UniFind-mobile">GitHub</a> &nbsp;·&nbsp;
+      <a href="https://ko-fi.com/unifind">Ko-fi</a> &nbsp;·&nbsp;
+      <a href="the.todoers.group@gmail.com">Email Us</a>   
+    </p>
+    
+    <div class="footer-disclaimer">
+      ⚠️ UniFind is just a student project. It is not affiliated with, endorsed by, or connected to Bicol University or its administration in any way.
+      <br>
+      ⚠️ UniFind collects personal data like name, year level, campus, and college in making recommendations personalized.
+    </div>
+
+    <p style="margin-top: 10px; color: #8aaed4; font-size: 0.8rem;">
+      © 2026 UniFind
+    </p>
+  </footer>
+
+</body>
+</html>
