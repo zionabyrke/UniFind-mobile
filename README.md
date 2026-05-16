@@ -99,4 +99,4 @@ We are a group of five 3rd Year Bachelor of Science in Computer Science students
 
 ---
 
-*© 2025 UniFind*
+*© 2026 UniFind*
