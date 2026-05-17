@@ -1,6 +1,6 @@
 # UniFind-mobile
 
-> A Content-based Personalized Marketplace App for BUeños
+A Content-based Personalized Marketplace App for BUeños
 
 [![Platform](https://img.shields.io/badge/Platform-Android-3ddc84?style=flat-square&logo=android&logoColor=white)](https://github.com/zionabyrke/UniFind-mobile/releases/latest)
 [![Download](https://img.shields.io/badge/Download-APK-0f62fe?style=flat-square&logo=android&logoColor=white)](https://github.com/zionabyrke/UniFind-mobile/releases/latest)
@@ -11,8 +11,6 @@
 ---
 
 UniFind was built to make student-to-student transactions personalized, faster, more organized, and safer within the BU campus, while promoting affordability and sustainability through item reuse.
-
----
 
 <table>
   <tr>
